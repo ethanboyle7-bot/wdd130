@@ -110,6 +110,14 @@ article {
     padding: 5px;
     color: white;
 }
+
+article h3 {
+    color: white;
+    margin: 5px 0 8px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
  .history {
     margin: 16px;
 }
