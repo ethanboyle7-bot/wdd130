@@ -116,11 +116,6 @@ article h3 {
     text-align: center;
 }
 
-.hero article img {
-    margin-top: 10px;
-    margin-right: 10px;
-}
-
  .history {
     margin: 16px;
 }
@@ -156,7 +151,8 @@ article h3 {
 
 .hero article img {
     position: relative;
-    top: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
     float: right;
     width: 125px;
 }
