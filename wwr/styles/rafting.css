@@ -113,15 +113,9 @@ h1 {
 }
 
 .map-form-container {
-    display: inline-block;
+    float: left;
     width: 48%;
-    vertical-align: top;
-}
-
-.map {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    margin-right: 4%;
 }
 
 .map iframe {
@@ -133,14 +127,17 @@ h1 {
 }
 
 .box {
-    display: inline-block;
+    float: left;
     width: 48%;
     max-width: 500px;
     padding: 20px;
     border: 1px solid rgb(var(--accent1-color-rgb));
     border-radius: 5px;
     margin: 0;
-    vertical-align: top;
+}
+
+section {
+    clear: both;
 }
 
 .quiz-item {
