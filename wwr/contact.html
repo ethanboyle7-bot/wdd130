@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A landing page for our whitewater rafting website for week 03 of WDD-130.">
+    <meta name="description"
+        content="A Contact Us page for Whitewater Rafting Company with details and forms to help people get in touch.">
     <meta name="author" content="Ethan Boyle">
     <title>Contact us page with WWR Company</title>
     <link rel="stylesheet" href="styles/rafting.css">
@@ -23,52 +24,73 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img src="images/wwr-hero-image.jpg" alt="A large banner image of people whitewater rafting.">
+        <div class="contact">
             <h1>Whitewater Rafting Company</h1>
-            <article>
-                <img src="images/happy-employee.jpg" alt="Happy Employee">
-                <h3>Our Mission</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quidem aut qui aliquid ipsum minus
-                    illo dignissimos, similique in ducimus vel placeat libero autem aliquam? Fugiat modi vitae repellat
-                    praesentium.</p>
-            </article>
+            <h4>123 Main River Street</h4>
+            <h4>Brooklyn, NSW</h4>
+            <h4>+61 2 1234 5678</h4>
+            <h4>info@wwrc.com.au</h4>
         </div>
-        <section class="history">
-            <h2>History</h2>
-            <div class="history-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non et ullam, praesentium aperiam odit
-                    similique? Distinctio pariatur ex, consectetur soluta facere harum temporibus ab animi odio! Enim ut
-                    nobis maxime.</p>
-                <img src="images/wwr-history.jpg" alt="History Image">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit minima quaerat aspernatur mollitia,
-                    rerum deserunt, animi a cum numquam, soluta eveniet debitis totam provident nemo fuga atque
-                    obcaecati eius
-                    ducimus.</p>
+        <div class="map-form-container">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13300.977153304935!2d151.21564874498907!3d-33.54702874459082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1764396715936!5m2!1sen!2sau"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </section>
+            <form class="box">
+                <div class="quiz-item">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your full name">
+                </div>
+                <div class="quiz-item">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="john.doe@email.com">
+                </div>
+                <div class="quiz-item">
+                    <label>Message Purpose</label>
+                    <div class="radio-column">
+                        <div>
+                            <input type="radio" id="general" name="message-purpose" value="general">
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="reservation" name="message-purpose" value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="suggestion" name="message-purpose" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="quiz-item">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Type here"></textarea>
+                </div>
+                <div class="quiz-item">
+                    <label for="newsletter">Please Subscribe me to the monthly newsletter</label>
+                    <input type="checkbox">
+                </div>
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </div>
+
+        </div>
         <section>
-            <h2>Adventure Awaits You!</h2>
-            <div class="adventure-gallery">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-gallery">
                 <figure>
-                    <img src="images/wwr-adventure1.jpg" alt="Los Dientes del Diablo Rapids">
-                    <figcaption>Los Dientes del Diablo</figcaption>
+                    <img src="images/employee-1.jpg" alt="Employee #1">
+                    <figcaption>Johnathon Rafting - CEO</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/wwr-adventure2.jpg" alt="Big Mallard Rapids">
-                    <figcaption>Big Mallard</figcaption>
+                    <img src="images/employee-2.jpg" alt="Employee #2">
+                    <figcaption>Daryl Waters - Booking Specialist</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/wwr-adventure3.jpg" alt="Half Day Adventure Rapids">
-                    <figcaption>Half Day Adventure</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/wwr-adventure4.jpg" alt="Thunder Way Rapids">
-                    <figcaption>Thunder Way</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/wwr-adventure5.jpg" alt="Grave Creek Falls">
-                    <figcaption>Grave Creek Falls</figcaption>
+                    <img src="images/employee-3.jpg" alt="Employee #3">
+                    <figcaption>Carol Rivers - Social Media Leader</figcaption>
                 </figure>
             </div>
         </section>
