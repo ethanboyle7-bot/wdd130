@@ -538,7 +538,6 @@ h2 {
 
 .trips-table {
     width: 100%;
-    border-collapse: collapse;
     background-color: white;
     border: 2px solid rgb(var(--accent1-color-rgb));
     border-radius: 8px;
@@ -562,18 +561,6 @@ h2 {
     padding: 12px 15px;
     border-bottom: 1px solid rgba(var(--accent1-color-rgb), 0.2);
     color: rgb(var(--accent1-color-rgb));
-}
-
-.trips-table tbody tr:last-child td {
-    border-bottom: none;
-}
-
-.trips-table tbody tr:hover {
-    background-color: rgba(var(--accent1-color-rgb), 0.05);
-}
-
-.trips-table tbody tr:nth-child(even) {
-    background-color: rgba(var(--accent1-color-rgb), 0.03);
 }
 
 footer {
