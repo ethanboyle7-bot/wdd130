@@ -517,6 +517,54 @@ h2 {
     padding: 0;
 }
 
+.trips-table-section {
+    margin: 32px 16px;
+}
+
+.trips-table-section h2 {
+    margin-bottom: 20px;
+}
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border: 2px solid rgb(var(--accent1-color-rgb));
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.trips-table thead {
+    background-color: rgb(var(--primary-color-rgb));
+    color: white;
+}
+
+.trips-table th {
+    padding: 15px;
+    text-align: left;
+    font-family: var(--heading-font);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.trips-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid rgba(var(--accent1-color-rgb), 0.2);
+    color: rgb(var(--accent1-color-rgb));
+}
+
+.trips-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.trips-table tbody tr:hover {
+    background-color: rgba(var(--accent1-color-rgb), 0.05);
+}
+
+.trips-table tbody tr:nth-child(even) {
+    background-color: rgba(var(--accent1-color-rgb), 0.03);
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
